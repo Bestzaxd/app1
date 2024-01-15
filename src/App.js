@@ -2,7 +2,7 @@ import React from 'react'
 import Button from './class-components'
 
 function App() {
-   return <button/>
+   return <Button/>
 }
 
 export default App;
