@@ -11,7 +11,9 @@ export default function FormText(){
         }
     }
         const onBlurPassword2 = () => {
-            if(textPswd.current.value !== textPswd2.current.value){
+            let pswd =textPswd.current.value
+            let pswd2 = textPswd2.current.value
+            if( pswd !== '' &&  pswd2){
                 textPswd2.current.value = ''
                 alert('รหัสผ่านทั้งสองช่องไม่ตรงกัน')
             }
